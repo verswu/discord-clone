@@ -1,6 +1,6 @@
 import React from 'react'
 import './Sidebar.css'
-import SidebarChannel from './SidebarChannel' 
+import SidebarChannel from './SidebarChannel'
 import ExpandMoreIcon from '@material-ui/icons/ExpandMore';
 import SignalCellularAltIcon from '@material-ui/icons/SignalCellularAlt';
 import AddIcon from '@material-ui/icons/Add';
@@ -15,7 +15,7 @@ function Sidebar() {
     return (
         <div className="sidebar">
             <div className="sidebar__top">
-                <h3>Kent's Discord</h3>
+                <h3>Pepper Chat</h3>
                 <ExpandMoreIcon />
             </div>
 
@@ -52,12 +52,12 @@ function Sidebar() {
                      <CallIcon />
                 </div>
             </div>
-            
+
             <div className="sidebar__profile">
                 <Avatar />
                 <div className="sidebar__profileInfo">
                     <h3>Kent Wu</h3>
-                    <p>it's a me</p> 
+                    <p>it's a me</p>
                 </div>
                 <div className="sidebar__profileIcons">
                     <MicIcon />
@@ -67,6 +67,6 @@ function Sidebar() {
             </div>
         </div>
     );
-} 
+}
 
 export default Sidebar;
